@@ -1,0 +1,26 @@
+.main{
+    background-color: #222222;
+}
+.main_title{
+    padding-bottom: 33px;
+}
+.main-title{
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+}
+.main_gallary{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 22px;
+    column-gap: 20px;
+    padding-bottom: 79px;
+}
+.gallary_photo{
+    transition: transform 0.25s;
+    overflow: hidden;
+}
+.gallary_photo:hover{
+    transform: scale(1.2);
+}

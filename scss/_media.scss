@@ -1,0 +1,26 @@
+@media(max-width: 390px){
+    .main_gallary{
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 30px;
+    }
+}
+@media(max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        padding-bottom: 35px;
+    }
+    .header_title{
+        padding-bottom: 50px;
+    }
+    .main_gallary{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width: 892px){
+    .button{
+        margin: 0 auto;
+    }
+}
